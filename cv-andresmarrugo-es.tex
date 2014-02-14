@@ -1,0 +1,176 @@
+%-----------------------------------------
+% Andres Marrugo
+% Curriculum Vitae
+%
+% URL: https://github.com/agmarrugo/cv
+% This document is covered under the Creative Commons Attribution 3.0 Unported License
+%-----------------------------------------
+
+
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,letterpaper,final]{moderncv}
+%\usepackage{fontspec}
+%\moderncvtheme[darkred]{classic}
+\moderncvtheme[blue]{classic}
+
+\usepackage[spanish]{babel}
+% \usepackage[spanish, es-noshorthands]{babel}
+% \usepackage[spanish,es-notilde]{babel}
+ 
+
+%\usepackage[document]{ragged2e}
+\usepackage{ragged2e}
+\let\raggedright=\RaggedRight
+
+% DOCUMENT LAYOUT
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{3.7cm}
+\AtBeginDocument{\recomputelengths}
+
+\usepackage{multibib}
+% \newcites{jour}{Publicaciones en Revistastas}
+\newcites{jour,proc,jourdiv}{{Art\'iculos en Revistas},{Actas en Congresos Revisadas por Pares},{Art\'iculos t\'ecnicos por Invitaci\'on}}
+
+% FONTS
+\usepackage[utf8]{inputenc}
+%\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+
+% Remove % to set to different fonts
+%\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
+%\setmonofont[Scale=0.8]{Monaco} 
+
+% ---- CUSTOM AMPERSAND
+%\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+
+% ---- MARGIN YEARS
+%\newcommand{\years}[1]{\marginpar{\scriptsize #1}}
+
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+
+
+% Personal Inofrmation
+\firstname{Andr\'es}
+\familyname{Marrugo}
+\title{Curriculum Vit\ae}
+\address{Parque tecnol\'ogico Carlos V\'elez Pombo}{Km 1. V\'ia Turbaco, Cartagena (Colombia)}
+\mobile{(57)-314-559-1212}
+\phone{(57)-653-5200 ext. 662}
+\email{agmarrugo@utbvirtual.edu.co}
+% \homepage{andresmarrugo.net/about}
+
+\photo[64pt]{photo}   
+
+
+% \nopagenumbers{}
+
+\usepackage{hyperref}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Informaci\'on Personal}
+\cvline{Nombre completo:}{Andr\'es Guillermo Marrugo Hern\'andez}
+\cvline{No.~Identificaci\'on:}{CC73006735 de Cartagena, (Bol\'ivar).}
+% \cvline{}{\textbf{N\'umero de Identificaci\'on:} CC73006735 de Cartagena, (Bol\'ivar).}
+\cvline{Fecha de Nacimiento:}{28 de Octubre, 1984.}
+% \cvline{}{\textbf{Fecha de Nacimiento:} 28 de Octubre, 1984}
+\cvline{Lugar de Nacimiento:}{Cartagena (Bol\'ivar), Colombia.}
+% \cvline{}{\textbf{Lugar de Nacimiento:} Cartagena de Indias, Colombia.}
+\cvline{Estado civil:}{Casado.}
+% \cvline{}{\textbf{Estado civil:} Soltero.}
+\cvline{CvLAC:}{\url{http://d.pr/lRdS}}
+
+
+% \cventry{year–year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\section{Educaci\'on}
+\cventry{2008-2013}{Ph.D. en Ingenier\'ia \'Optica}{Universidad Polit\'ecnica de Catalu\~{n}a}{Barcelona, Espa\~{n}a}{\emph{Cum laude}}{Proyecto de grado: ``Retinal image analysis: image processing and feature extraction.''}
+\cventry{2008-2009}{M.Sc. en Fot\'onica}{Universidad Polit\'ecnica de Catalu\~{n}a}{Barcelona, Espa\~na}{\emph{9.8/10}}{Proyecto de grado: ``Image analysis algorithms for feature extraction in eye fundus images''}
+\cventry{2003-2008}{B.E. en Ingenier\'ia Mecatr\'onica}{Universidad Tecnol\'ogica de Bol\'ivar}{Cartagena, Colombia}{\emph{5.0/5.0}}{Proyecto de grado: ``Guava fruit ripening optic inspection system by means of digital image analysis''}
+
+\section{Distinciones y Becas}
+\cvline{2012}{\textbf{Diploma de Honor: J\'ovenes Investigadores}, Sociedad Espa\~nola De \'Optica.}
+% \cvline{2009}{\textbf{Beca doctoral de Formaci\'on Profesorado Universitario}, Ministerio de Educaci\'on, Espa\~na.}
+\cvline{2008}{\textbf{Trabajo de Grado Laureado}, Universidad Tecnol\'ogica de Bol\'ivar.}
+\cvline{2008}{\textbf{Egresado de Honor: Premio Alcatraz de Oro}, Universidad Tecnol\'ogica de Bol\'ivar.}
+\cvline{2008}{\textbf{Summa Cum Laude}, Universidad Tecnol\'ogica de Bol\'ivar.}
+
+\section{Experiencia} 
+	\cventry{May 2013 -- presente}{Docente tiempo completo}{Facultad de Ciencias B\'asicas}{Universidad Tecnol\'ogica de Bol\'ivar}{Colombia, Tiempo completo}{}
+    \cventry{Sep 2008 -- Feb 2013}{Personal de investigaci\'on (PDI)}{Grupo de \'Optica Aplicada y Procesado de Imagen}{Universidad Polit\'ecnica de Catalu\~{n}a}{Espa\~na, Tiempo completo}{}
+  \cventry{Jul 2007 -- Dic 2007}{Asistente de investigaci\'on en pr\'acticas}{Grupo de Qu\'imica Cu\'antica y Te\'orica}{Universidad de Cartagena}{Tiempo completo}{}
+  \cventry{Ene 2005 -- May 2007}{Auxiliar docente}{Departamento de F\'isica}{Universidad Tecnol\'ogica de Bol\'ivar}{Tiempo parcial}{}
+
+\section{Participaci\'on en proyectos de I+D+i}
+\cvline{Ene 2010 -- Dic 2012}{\textbf{Procesado de la informaci\'on \'optica con aplicaciones a la industria, la salud visual y la seguridad}, financiado por MCINN (Min. Ciencia e Innovaci\'on), Plan Nacional de Dise\~no y Producci\'on Industrial. Fondos FEDER, Universidad Polit\'ecnica de Catalu\~na.}
+\cvline{Oct 2008 -- Sep 2009}{\textbf{Dispositivos y procesadores para la interacci\'on avanzada entre sistemas de visi\'on humana y visi\'on artificial}, financiado por Ministerio de Educaci\'on y Ciencia (MEC, convocatoria 2006), Plan Nacional de Dise\~no y Producci\'on Industrial. Fondos FEDER, Universidad Polit\'ecnica de Catalu\~{n}a.}
+
+
+\section{Pasant\'ias de Investigaci\'on}
+\cventry{May 2010 -- Ago~2010}{Restauraci\'on de imagen retiniana}{Departamento de Procesado de Imagen}{Instituto de Teor\'ia de la Informaci\'on y Automatizaci\'on, Academia Checa de Ciencias}{Praga, Rep\'ublica Checa}{}
+\cventry{Nov 2009 -- Dic 2009}{Estimaci\'on de calidad de imagen}{Grupo de Modelado de Visi\'on y Procesado de Imagen}{Instituto de \'Optica, Consejo Superior de Investigaci\'ones Cient\'ificas}{Madrid, Espa\~na}{}
+
+
+  
+
+  
+ 
+
+
+\section{Publicaciones}
+% \nocite{*}
+\nocitejour{Marrugo:2014k}
+\nocitejour{Marrugo:2012jy}
+\nocitejour{Marrugo:2011kk}
+% \nocitejour{Marrugo:2010uo} 
+\nocitejour{1742-6596-274-1-012039}
+\nocitejour{Marrugo:2010uo,VivasReyes:2008bc}
+% \renewcommand{\refname}{Publicaciones en revistas}
+\bibliographystylejour{plainyr-rev}
+
+\nocitejourdiv{Marrugo:ts}
+\bibliographystylejourdiv{plainyr-rev}
+\bibliographyjourdiv{publications}    
+
+% \bibliography{publications}    
+\bibliographyjour{publications}    
+\nociteproc{Marrugo:2013}
+\nociteproc{Marrugo:2012un}
+\nociteproc{Marrugo:2011wu}
+\nociteproc{Marrugo:2011:MBD:2093698.2093705}
+\nociteproc{marrugo:84360C}
+\nociteproc{Marrugo:2009ve}
+\bibliographystyleproc{plainyr-rev}
+\bibliographyproc{publications}    % 'publications' is the name of a BibTeX file
+    
+
+
+
+\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
+
+\section{Idiomas}
+% \cvlistitem{Espa\~{n}ol: Lengua materna}
+\cvline{Espa\~{n}ol:}{Lengua materna}
+\cvline{Ingl\'es:}{Excelente (Calificaci\'on Toefl: 111/120)}
+\cvline{Franc\'es:}{Intermedio (Nivel Delf A6)}
+
+\section{Habilidades Computacionales} 
+ \cvline{Lenguajes:}{C/C++, Python, VHDL, tambi\'en Matlab/Simulink, Octave, Maple, \LaTeX.}
+ \cvline{Software:}{Solid Edge (CAD/CAM), Gaussian, Pspice, Git.}
+ \cvline{Sistemas operativos:}{Linux, MS Windows y OS X.}
+
+
+
+\section{Sociedades Científicas}
+\cvlistitem{Sociedad Espa\~nola de \'Optica (SEDOPTICA)}
+\cvlistitem{European Optical Society (EOS)}
+\cvlistitem{International Society for Optics and Photonics (SPIE)}
+\cvlistitem{Sociedad Colombiana de Física}
+ 
+\clearpage
+
+\end{document}
